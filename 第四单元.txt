@@ -1,0 +1,470 @@
+
+单选题：
+
+1、var x=&quot;5&quot;,y=9,z=x*1+y;console.log(z)的打印结果是（   ）：
+
+  正确答案：B
+
+A  59
+
+B  以上都不对
+
+C  14
+
+D  NaN
+
+2、var msg = &quot;hello&quot;;以下输出“她说hello”，其中hello显示为粗体，语法正确的是（   ）：
+
+  正确答案：B
+
+A  console.log("她说<b>msg</b>");
+
+B  console.log("她说<b>"+msg+"</b>");
+
+C  console.log("她说"+"<b>"+msg+"</b>");
+
+D  console.log("她说"+"<b>msg</b>");
+
+3、以下变量的命名及赋值语法正确的是(    )：
+
+  正确答案：A
+
+A  var user;var id=9;
+
+B  var msg="hello",sex=男;
+
+C  var isStudent=false;age=18;
+
+D  var=id;
+
+4、typeof返回的结果是（    ）类型：
+
+  正确答案：D
+
+A  boolean
+
+B  object
+
+C  number
+
+D  string
+
+5、var admin = &quot;marry&quot;,pwd = &quot;marry_58&quot;;以下输出“我的用户名是marry，密码是marry_58”，其中marry显示为粗体，marry_58显示为斜体，语法正确的是（   ）：
+
+  正确答案：D
+
+A  console.log("我的用户名是<b>"+admin+"</b>，密码是"+"<i>"+pwd+"</i>");
+
+B  console.log("我的用户名是<b>admin</b>“+”，密码是+<i>+pwd+</i>");
+
+C  console.log("我的用户名是<b>"+admin+"</b>"+"，密码是"+"<i>"+pwd+"</i>");
+
+D  console.log("我的用户名是<b>"+admin+"</b>，密码是<i>"+pwd+"</i>");
+
+6、var str1 = &quot;hello&quot;,str2;
+console.log(str1+str);以上代码的打印结果是（  ）
+：
+
+  正确答案：A
+
+A  helloundefined
+
+B  undefined
+
+C  hello
+
+D  程序报错
+
+7、var x = &quot;5&quot;,y = 5,z,s= x===y || !z;console.log(s)的打印结果是（   ）：
+
+  正确答案：A
+
+A  TRUE(小写）
+
+B  FALSE(小写）
+
+C  null
+
+D  undefined
+
+8、var sock = 125,level = parseInt(sock/10),result;if(level&lt;6){result=&quot;不及格&quot;}else if(level&gt;=6 &amp;&amp; level&lt;=8){result=&quot;及格&quot;}else if(level==9 || level==10){result=&quot;优秀&quot;}else{result=&quot;成绩出错&quot;}console.log(result)（   ）：
+
+  正确答案：D
+
+A  优秀
+
+B  及格
+
+C  不及格
+
+D  成绩出错
+
+9、var floor = &quot;C#1206&quot;;console.log(parseInt(floor));（    ）：
+
+  正确答案：B
+
+A  C#
+
+B  NaN
+
+C  C
+
+D  1206
+
+10、使用if语句时，小括号内的条件，返回结果必须得是（    ）：
+
+  正确答案：A
+
+A  boolean
+
+B  number
+
+C  string
+
+D  object
+
+11、var msg = &quot;hello&quot;,result;if(msg){result=&quot;yes&quot;}else{rsult=&quot;no&quot;};console.log(result)以上代码的打印结果是（    ）  ：
+
+  正确答案：B
+
+A  程序报错
+
+B  undefined
+
+C  no
+
+D  yes
+
+12、var sock = 88.5,level = parseInt(sock/10),result;if(level&lt;6){result=&quot;不及格&quot;}else if(level&gt;=6 &amp;&amp; level&lt;=8){result=&quot;及格&quot;}else if(level==9 || level==10){result=&quot;优秀&quot;}else{result=&quot;成绩出错&quot;}console.log(result)（   ）
+：
+
+  正确答案：A
+
+A  及格
+
+B  不及格
+
+C  成绩出错
+
+D  优秀
+
+13、var level = &quot;&quot;,money = 8690,orders = 55;if(orders&lt;20 &amp;&amp; money&lt;5000){
+level = &quot;入门级会员&quot;}else{if(money&gt;=20000 || orders&gt;50){level = &quot;黄金会员&quot;}else{level = &quot;VIP会员&quot;}}console.log(level)（   ）：
+
+  正确答案：D
+
+A  入门级会员
+
+B  VIP会员
+
+C  undefined
+
+D  黄金会员
+
+14、var dis = &quot;99.86px&quot;;console.log(parseInt(dis));（   ）：
+
+  正确答案：A
+
+A  99
+
+B  99.86px
+
+C  NaN
+
+D  99.86
+
+15、var msg = &quot;hello520&quot;;
+if(!isNaN(msg)){
+    msg = parseInt(msg);
+}
+console.log(msg);：
+
+  正确答案：A
+
+A  hello520
+
+B  undefined
+
+C  520
+
+D  NaN
+
+16、var msg = &quot;1314&quot;;
+if(!isNaN(msg)){
+    msg+=&quot;15&quot;;
+}
+console.log(msg);：
+
+  正确答案：D
+
+A  1329
+
+B  1314
+
+C  undefined
+
+D  131415
+
+17、var name,type=&quot;&quot;;if(typeof(name)===&quot;undefined&quot;){type=&quot;boolean&quot;}else if(typeof(name)===&quot;string&quot; || typeof(name)===&quot;number&quot;){type=&quot;string&quot;}else{type=&quot;object&quot;}console.log(type);（    ）：
+
+  正确答案：B
+
+A  string
+
+B  boolean
+
+C  object
+
+D  undefined
+多选题：
+
+1、以下表达式没有语法错误的是（   ）：
+						 
+
+正确答案：A ; B ; D
+
+A var msg="hello";msg+="world";
+
+B var id="3";id*=6;
+
+C var len;len+=5;
+
+D var user="6";user+=5;
+
+2、以下关于变量的说法正确的有（   ）：
+						 
+
+正确答案：A ; C
+
+A 声明变量的关键字是var，所以var是不能作为变量名出现的
+
+B 变量名是不能以数字或下划线开头的
+
+C 变量名是可以包含字母、数字、下划线和$符号的
+
+D 声明多个变量时，变量名之间应用分号隔开
+
+3、以下代码转换为布尔型后为真的哪些（   ）：
+						 
+
+正确答案：B ; C ; D
+
+A 0
+
+B 99=="99"
+
+C "abc"
+
+D 88
+
+4、以下表达式返回结果为false的有哪些（ ）：
+						 
+
+正确答案：B ; C ; D
+
+A "55" !== 55
+
+B "" == undefined
+
+C 0 === false
+
+D null == 0
+
+5、以下哪些运算符属于赋值运算符（   ）：
+						 
+
+正确答案：A ; B ; C ; D ; E
+
+A *=
+
+B /=
+
+C +=
+
+D %=
+
+E -=
+
+6、JavaScript都包含哪些数据类型（  ）：
+						 
+
+正确答案：A ; B ; C ; D ; E
+
+A undefined
+
+B string
+
+C number
+
+D boolean
+
+E object
+
+7、以下哪些运算符属于逻辑运算符（ ）：
+						 
+
+正确答案：A ; B ; D
+
+A !
+
+B ||
+
+C 
+
+D &&
+
+E =
+
+8、以下表达式返回结果是NaN的有哪些（   ）：
+						 
+
+正确答案：C ; D
+
+A "09"-3*2
+
+B parseFloat("123.55.36ppx")
+
+C 6*"abc"+3
+
+D parseInt("C89")
+
+9、var floor = &quot;8L&quot;;if(isNaN(floor)){console.log(0)}else{console.log(1)}（    ）：
+						 
+
+正确答案：
+
+A 0
+
+B 8L
+
+C 1
+
+D undefined
+
+10、以下表达式返回为false的有哪些（   ）：
+						 
+
+正确答案：A ; B
+
+A null == ""
+
+B undefined === null
+
+C "" == 0
+
+D undefined == null
+
+11、以下哪些语句或方法返回的结果是boolean型（   ）：
+						 
+
+正确答案：A ; D
+
+A isNaN()
+
+B parseInt()
+
+C typeof()
+
+D if()
+
+12、以下语句没有语法错误的有哪些（   ）：
+						 
+
+正确答案：C ; D
+
+A var a="hello",a+=" world";
+
+B var a;if(a=""){alert("a需要赋值")}
+
+C var level="";if(!level)console.log("需要有分级");
+
+D if(isNaN("name55")==true){console.log("ok")}
+判断题：
+
+1、变量本身没有类型，变量的类型取决于变量的值。：：
+
+正确答案：对	
+
+√
+
+×
+
+2、加号在js中除了有相加的作用还有连接的作用。：：
+
+正确答案：对	
+
+√
+
+×
+
+3、script标签是不能嵌套在body当中的。：：
+
+正确答案：错	
+
+√
+
+×
+
+4、除0之外的任何数字转换为布尔值都是true。：：
+
+正确答案：对	
+
+√
+
+×
+
+5、+运算符除了有相加的作用，还有连接的作用。：：
+
+正确答案：对	
+
+√
+
+×
+
+6、==和===在使用上没有任何区别。：：
+
+正确答案：错	
+
+√
+
+×
+
+7、isNaN()方法的功能是判断一个参数是否是数字。：：
+
+正确答案：错	
+
+√
+
+×
+
+8、parseInt()和parseFloat()的返回结果有可能是Number，也有可能是String。：：
+
+正确答案：错	
+
+√
+
+×
+
+9、if()的条件语句中不可以出现赋值即一个等号。：：
+
+正确答案：对	
+
+√
+
+×
+
+10、NaN和任何内容都不相等，包括它本身：：
+
+正确答案：对	
+
+√
+
+×
+
+11、if与if之间是不可以互相嵌套的。：：
+
+正确答案：错	
+
+√
+
+×
